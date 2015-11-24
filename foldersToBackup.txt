@@ -1,0 +1,4 @@
+C:\Users\TestUser\MyFolderToBackup   my-custom-foldername
+C:\Users\TestUser\Another Project   another-project
+C:\Users\TestUser\my-important-work   importantwork
+C:\Users\TestUser\My Pictures   my_pictures
