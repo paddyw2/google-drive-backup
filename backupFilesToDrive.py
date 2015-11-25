@@ -22,7 +22,7 @@ def readDirList():
 
 # deletes the dest folder and its contents, then recreate items
 # for each folder specified, copy all its data to the dest
-def copFiles():
+def copyFiles():
     dirlist = readDirList()
     shutil.rmtree(DESTDIR,  ignore_errors=False)
     # allow delete process to complete, and to avoid permissions error
@@ -32,6 +32,6 @@ def copFiles():
         shutil.copytree(dir[0], DESTDIR+"\\"+dir[1])
 		
 def main():
-    copFiles()
+    copyFiles()
 
 main()
